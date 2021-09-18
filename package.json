@@ -1,0 +1,27 @@
+{
+  "name": "horoscope-api",
+  "version": "1.0.0",
+  "description": "A RESTful API that scrapes the internet to get you today's horoscope",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "horoscope",
+    "astrology",
+    "restful",
+    "api",
+    "noedjs"
+  ],
+  "author": "panda3141592@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
