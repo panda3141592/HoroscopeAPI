@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A RESTful API that scrapes the internet to get you today's horoscope",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-  },
   "keywords": [
     "horoscope",
     "astrology",
